@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#bg-video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    color: #1ae92b;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 64px;
+}
+p{
+    font-size: 28px;
+}
+button{
+    height: auto;
+    width: auto;
+    padding: 8px 50px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #1ae92b;    ;
+    color:rgb(20, 20, 20);
+    cursor: pointer;
+}
+.box{
+    border: 4px solid #51e467bb;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 30px;
+}
+
